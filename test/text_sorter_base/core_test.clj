@@ -7,7 +7,11 @@
   (testing "Sanity"
     (is (= 1 1)))
   (testing "main functionality"
-    (is (= "Walters,Jack,jw@fake.com,grey, DateOfBirth, 11/11/1911" (-main "csvnames.txt")))
+    (println (-main "csvnames.txt"))
+    (is (= 2 (count (-main "csvnames.txt"))))
+    (is (= 5 (count (first(-main "csvnames.txt")))))
+    (is (= "Jack" (:first-name (first(-main "csvnames.txt")))))
+
     )
 
   )
