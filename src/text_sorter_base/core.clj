@@ -17,7 +17,7 @@
     (for [b parsed-blob]
       (do (cond
             (str/includes? file ",") (person-to-map (clojure.string/split b #","))
-            (str/includes? file "-") (person-to-map (clojure.string/split b #""))
+            (str/includes? file "|") (person-to-map (clojure.string/split b #"\|"))
             (str/includes? file " ") (person-to-map (clojure.string/split b #" "))
             :else (println "File is invalid"))))))
 
@@ -49,7 +49,11 @@
 (defn -main
   "Currently pulls a file form location and sorts it into a map."
   [file-location]
+  (println "PRE MAP")
+  (println (slurp (io/resource file-location)))
   (let [mapped-file (file-to-map(slurp (io/resource file-location)))]
+    (println "MAPPED FILE ")
+    (println mapped-file)
     (sort-map mapped-file "last name")
     mapped-file
     ))

@@ -14,6 +14,20 @@
     (is (= 5 (count (first(-main "csvnames.txt")))))
     (is (= "Jack" (:first-name (first(-main "csvnames.txt")))))
     (is (= 3 (count (file-to-map(slurp (io/resource "csvnames.txt"))))))
+
+    ;; Tests for pike seperated values
+
+    (is (= 3 (count (-main "psvnames.txt"))))
+    (is (= 5 (count (first(-main "psvnames.txt")))))
+    (is (= "Jack" (:first-name (first(-main "psvnames.txt")))))
+    (is (= 3 (count (file-to-map(slurp (io/resource "psvnames.txt"))))))
+
+    ;; Tests for space seperated values
+
+    (is (= 3 (count (-main "ssvnames.txt"))))
+    (is (= 5 (count (first(-main "ssvnames.txt")))))
+    (is (= "Jack" (:first-name (first(-main "ssvnames.txt")))))
+    (is (= 3 (count (file-to-map(slurp (io/resource "ssvnames.txt"))))))
     )
 
   ;; Here's a test map. The reason we don't just use the file-to-map funciton is that if that one funciton breaks all these tests will fail.
@@ -40,4 +54,5 @@
 
       (is (= "Edward" (:first-name (first (sort-by-date sorting-name)))))
       (is  (= "Abe" (:first-name (last (sort-by-date sorting-name)))))
+
       )))
