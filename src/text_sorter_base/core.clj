@@ -1,8 +1,6 @@
 (ns text-sorter-base.core
   (require [clojure.java.io :as io]
-           [clojure.string :as str]
-
-           )
+           [clojure.string :as str])
   (:gen-class)
   (:import (java.text SimpleDateFormat)))
 

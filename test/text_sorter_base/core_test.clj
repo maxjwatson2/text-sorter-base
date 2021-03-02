@@ -2,6 +2,7 @@
   (:require [clojure.test :refer :all]
             [clojure.java.io :as io]
             [text-sorter-base.core :refer :all]
+            [text-sorter-base.rest :refer :all]
             )
   (:import (java.text SimpleDateFormat))
   )
@@ -40,7 +41,6 @@
                        {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1619")}
                        {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1629")}
                        ]]
-      (println "-" (sort-by-email sorting-name))
       ;; here we're testing the sorting
       (is (= "Lincon" (:last-name (last (sort-by-last-name sorting-name)))))
       (is (= "Teach" (:last-name (first (sort-by-last-name sorting-name)))))
