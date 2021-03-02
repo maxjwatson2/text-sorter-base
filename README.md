@@ -1,6 +1,6 @@
 # text-sorter-base
 
-FIXME: description
+This is a simple application that sorts text files seperated with either commas, pikes, or spaces into a readable format. 
 
 ## Installation
 

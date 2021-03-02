@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c5d6f5-d29f-45af-87a0-4e55364178ee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/psvnames.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/ssvnames.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/resources/csvnames.txt" afterPath="$PROJECT_DIR$/resources/csvnames.txt" />
+      <change beforePath="$PROJECT_DIR$/resources/psvnames.txt" afterPath="$PROJECT_DIR$/resources/psvnames.txt" />
+      <change beforePath="$PROJECT_DIR$/resources/ssvnames.txt" afterPath="$PROJECT_DIR$/resources/ssvnames.txt" />
       <change beforePath="$PROJECT_DIR$/src/text_sorter_base/core.clj" afterPath="$PROJECT_DIR$/src/text_sorter_base/core.clj" />
       <change beforePath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" afterPath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" />
     </list>
@@ -20,8 +22,8 @@
       <file leaf-file-name="csvnames.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/csvnames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="15">
+              <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -30,8 +32,8 @@
       <file leaf-file-name="psvnames.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/psvnames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="45">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -40,9 +42,22 @@
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/text_sorter_base/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="70" lean-forward="false" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+            <state relative-caret-position="694">
+              <caret line="50" column="128" lean-forward="false" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="128" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="121" lean-forward="false" selection-start-line="2" selection-start-column="121" selection-end-line="2" selection-end-column="121" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -50,8 +65,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="480">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -60,8 +75,8 @@
       <file leaf-file-name="ssvnames.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/ssvnames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="45">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -73,12 +88,12 @@
     <findStrings>
       <find>detect-file-type</find>
       <find>sort-map</find>
-      <find>sort-by-date</find>
-      <find>println</find>
       <find>before?</find>
       <find>birth-day</find>
       <find>second</find>
       <find>file-to-map</find>
+      <find>println</find>
+      <find>sort-by-date</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,7 +109,9 @@
       <list>
         <option value="$PROJECT_DIR$/resources/csv.txt" />
         <option value="$PROJECT_DIR$/resources/psvnames" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resources/csvnames.txt" />
+        <option value="$PROJECT_DIR$/resources/psvnames.txt" />
         <option value="$PROJECT_DIR$/resources/ssvnames.txt" />
         <option value="$PROJECT_DIR$/src/text_sorter_base/core.clj" />
         <option value="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" />
@@ -129,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,10 +186,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,12 +408,17 @@
       <workItem from="1614537777816" duration="1803000" />
       <workItem from="1614539614372" duration="600000" />
       <workItem from="1614544988026" duration="1528000" />
-      <workItem from="1614547807886" duration="1149000" />
+      <workItem from="1614547807886" duration="2257000" />
+      <workItem from="1614552129188" duration="674000" />
+      <workItem from="1614643058418" duration="1768000" />
+      <workItem from="1614644879781" duration="1776000" />
+      <workItem from="1614646687762" duration="1421000" />
+      <workItem from="1614648503492" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56391000" />
+    <option name="totallyTimeSpent" value="63736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -446,14 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/csvnames.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/text_sorter_base/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -783,16 +797,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/text_sorter_base/csv.txt" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/jre64/lib/rt.jar!/java/text/DateFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -809,40 +813,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/csvnames.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/psvnames.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="15">
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/ssvnames.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="121" lean-forward="false" selection-start-line="2" selection-start-column="121" selection-end-line="2" selection-end-column="121" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="869" column="6" lean-forward="false" selection-start-line="869" selection-start-column="6" selection-end-line="869" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/psvnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/text_sorter_base/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="70" lean-forward="false" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        <state relative-caret-position="694">
+          <caret line="50" column="128" lean-forward="false" selection-start-line="50" selection-start-column="128" selection-end-line="50" selection-end-column="128" />
           <folding />
         </state>
       </provider>

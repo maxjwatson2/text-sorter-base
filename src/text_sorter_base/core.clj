@@ -29,7 +29,8 @@
   (sort-by :first-name person-map))
 
 (defn sort-by-email [person-map]
-  (reverse (sort-by :email person-map)))
+  (reverse (sort-by (juxt :email :last-name) person-map))
+  )
 
 (defn sort-by-color [person-map]
   (sort-by :favorite-color person-map))
@@ -49,11 +50,7 @@
 (defn -main
   "Currently pulls a file form location and sorts it into a map."
   [file-location]
-  (println "PRE MAP")
-  (println (slurp (io/resource file-location)))
   (let [mapped-file (file-to-map(slurp (io/resource file-location)))]
-    (println "MAPPED FILE ")
-    (println mapped-file)
     (sort-map mapped-file "last name")
     mapped-file
     ))
