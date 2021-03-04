@@ -9,6 +9,7 @@
                  [ring/ring-core "1.9.1"]
                  [ring/ring-jetty-adapter "1.9.1"]
                  [ring/ring-defaults "0.3.2"]
+                 [ring/ring-mock "0.4.0"]
                  [cheshire "5.10.0"]]
   :main ^:skip-aot text-sorter-base.core
   :target-path "target/%s"

@@ -1,6 +1,7 @@
 (ns text-sorter-base.core-test
   (:require [clojure.test :refer :all]
             [clojure.java.io :as io]
+            [cheshire.core :refer :all]
             [text-sorter-base.core :refer :all]
             [text-sorter-base.rest :refer :all]
             )
