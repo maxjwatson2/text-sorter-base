@@ -25,7 +25,6 @@
 
           ;body (parse-body (:body response))
           ]
-      (println post-page)
 
       (is (= 0 (count @fake-db)))
       (add-record sorting-name) ;; Adding code to reset the atom doesn't seem to be necessary BUT we may wanna add a reset function anyway to be thorough.

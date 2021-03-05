@@ -1,5 +1,5 @@
 (ns text-sorter-base.core
-  (require [clojure.java.io :as io]
+  (require [clojure.java.io :as io];; NOTE remove IML from gitlab
            [clojure.string :as str])
   (:gen-class)
   (:import (java.text SimpleDateFormat)))
