@@ -20,22 +20,25 @@
                      {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1619")}
                      {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1629")}
                      ]]
+    (is (= 0 (count @fake-db)))
+    (app-routes (-> (mock/request :get "http://localhost:3000/records/populate/")));; Adding code to reset the atom doesn't seem to be necessary BUT we may wanna add a reset function anyway to be thorough.
+    (is (= 1 (count @fake-db)))
+
     (let [main-page (app-routes (-> (mock/request :get "http://localhost:3000/")))
-          post-page (app-routes (-> (mock/request :get "http://localhost:3000/records/name/")))
+          email-page (app-routes (-> (mock/request :get "http://localhost:3000/records/email/")))
+          birthdate-page (app-routes (-> (mock/request :get "http://localhost:3000/records/birthdate/")))
+          names-page (app-routes (-> (mock/request :get "http://localhost:3000/records/name/")))
+        ;;This doesn't work  post-page (app-routes (-> (mock/request :get "http://localhost:3000/records/add/")))
 
           ;body (parse-body (:body response))
           ]
 
-      (is (= 0 (count @fake-db)))
-      (add-record sorting-name) ;; Adding code to reset the atom doesn't seem to be necessary BUT we may wanna add a reset function anyway to be thorough.
-      (is (= 1 (count @fake-db)))
+
+      ;;(add-record sorting-name)
 
       (testing "Web pages"
       (is (= 200 (:status main-page)))
       (is (= "Lets sort some records of people out!" (:body main-page)))
 
-      )
-
-
-  )))
+      ))))
 

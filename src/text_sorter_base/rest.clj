@@ -13,9 +13,11 @@
 
 (defn add-record [req];; NOTE make sure that this is being done properly with calls from the actual website.
   ;; ALSO NOTE that the conj function may not be working properly.
-  (println req)
-  (swap! fake-db conj req);; Fix this it needs to be the body
-  "RECORD ADDED"
+  (println "Sdasdasdasd")
+  (swap! fake-db conj (parse-string (:body req) true))
+  "<h1>Success</h1>"
+  ;(swap! fake-db conj req);; Fix this it needs to be the body
+  ;"RECORD ADDED"
 
   ;;"RECORD HAS BEEN ADDED!!" NOTE add some sort of feedback
   )
@@ -65,4 +67,4 @@
   (handler/site app-routes))
 
 (defn start-server [] ;; NOTE we may wanna add a stop server function too.
-  (run-jetty app-routes {:port 3006 :join? false}))
+  (run-jetty app-routes {:port 3000 :join? false}))
