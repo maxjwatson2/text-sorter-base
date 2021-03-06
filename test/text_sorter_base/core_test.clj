@@ -36,11 +36,11 @@
   ;; This makes it way easier to narrow down points of failure.
   (testing "sorting functions"
     (let[sorting-name [
-                       {:last-name "Smith" :first-name "Adam" :email "ab@fake.com" :favorite-color "green" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"2/12/1709")}
-                       {:last-name "Smith" :first-name "Bobby" :email "ab@fake.com" :favorite-color "orange" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"2/12/1739")}
-                       {:last-name "Lincon" :first-name "Abe" :email "al@fake.com" :favorite-color "brown" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"2/12/1809")}
-                       {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1619")}
-                       {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date  (.parse (SimpleDateFormat. "M/D/YYYY")"1/1/1629")}
+                       {:last-name "Smith" :first-name "Adam" :email "ab@fake.com" :favorite-color "green" :birth-date "2/12/1709"}
+                       {:last-name "Smith" :first-name "Bobby" :email "ab@fake.com" :favorite-color "orange" :birth-date "2/12/1739"}
+                       {:last-name "Lincon" :first-name "Abe" :email "al@fake.com" :favorite-color "brown" :birth-date "2/12/1809"}
+                       {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date "1/1/1619"}
+                       {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date "1/1/1629"}
                        ]]
       ;; here we're testing the sorting
       (is (= "Lincon" (:last-name (last (sort-by-last-name sorting-name)))))
