@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" line="15" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c1c5d6f5-d29f-45af-87a0-4e55364178ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/text_sorter_base/core.clj" afterPath="$PROJECT_DIR$/src/text_sorter_base/core.clj" />
       <change beforePath="$PROJECT_DIR$/src/text_sorter_base/rest.clj" afterPath="$PROJECT_DIR$/src/text_sorter_base/rest.clj" />
       <change beforePath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" afterPath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" />
       <change beforePath="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" afterPath="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" />
@@ -42,8 +46,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="795">
+              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -52,8 +56,8 @@
       <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/text_sorter_base/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="765">
+              <caret line="51" column="122" lean-forward="false" selection-start-line="51" selection-start-column="122" selection-end-line="51" selection-end-column="122" />
               <folding />
             </state>
           </provider>
@@ -62,8 +66,8 @@
       <file leaf-file-name="rest_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/text_sorter_base/rest_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="77" lean-forward="false" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,38 +76,8 @@
       <file leaf-file-name="rest.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/text_sorter_base/rest.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cheshire/cheshire/5.10.0/cheshire-5.10.0.jar!/cheshire/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2895">
-              <caret line="193" column="6" lean-forward="false" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ssvnames.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ssvnames.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="855">
+              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -126,17 +100,24 @@
       <find>birth-day</find>
       <find>second</find>
       <find>file-to-map</find>
-      <find>sort-by-date</find>
       <find>core</find>
       <find>sort</find>
       <find>stop</find>
       <find>SimpleDateFormat</find>
       <find>sort-map</find>
       <find>add-record</find>
-      <find>println</find>
       <find>file</find>
       <find>slurp</find>
       <find>sorting-name</find>
+      <find>main-page</find>
+      <find>sort-by-date</find>
+      <find>jack</find>
+      <find>returned-recs</find>
+      <find>println</find>
+      <find>main-page2</find>
+      <find>email</find>
+      <find>note</find>
+      <find>NOTE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,10 +138,10 @@
         <option value="$PROJECT_DIR$/resources/psvnames.txt" />
         <option value="$PROJECT_DIR$/resources/ssvnames.txt" />
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" />
+        <option value="$PROJECT_DIR$/src/text_sorter_base/rest.clj" />
         <option value="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" />
         <option value="$PROJECT_DIR$/src/text_sorter_base/core.clj" />
-        <option value="$PROJECT_DIR$/src/text_sorter_base/rest.clj" />
-        <option value="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" />
       </list>
     </option>
   </component>
@@ -193,6 +174,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,9 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +231,7 @@
       <recent name="C:\Users\emoch\Desktop\programing\guaranteed rate homework\text-sorter-base\src\text_sorter_base" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1615002666741">{:repl-history {:ide [], :local [{:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record)&quot;, :offset 12, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(+ 2 3)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(:require '[text-sorter-base.resdsfdsft :refer :all])&quot;, :offset 53, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.core :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.testsrdf :refer :all])&quot;, :offset 51, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.restdsf :refer :all])&quot;, :offset 50, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.fsdf :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.rest :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text])&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text_sorter_base])&quot;, :offset 30, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[dsfasf])sdfasd&quot;, :offset 26, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[dsfasf])&quot;, :offset 12} {:command &quot;(require '[text-sorter-base.testsrdf :refer :all])&quot;, :offset 50, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(fake-db)&quot;, :offset 9, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;ldkfadkljs\&quot;)&quot;, :offset 25, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;dfs\&quot;)&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record )&quot;, :offset 13, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;sda\&quot; \&quot;Sdas\&quot;)&quot;, :offset 25, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;sda\&quot;)&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(+ 3 3)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(require '[text-sorter-base.core :refer :all])&quot;, :offset 46, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(require '[text-sorter-base.rest :refer :all])&quot;, :offset 46, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(start-server)&quot;, :offset 14, :ns &quot;text-sorter-base.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1615073457203">{:repl-history {:ide [], :local [{:command &quot;(+ 2 2)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record)&quot;, :offset 12, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(+ 2 3)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;()&quot;, :offset 1} {:command &quot;(:require '[text-sorter-base.resdsfdsft :refer :all])&quot;, :offset 53, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.core :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.testsrdf :refer :all])&quot;, :offset 51, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.restdsf :refer :all])&quot;, :offset 50, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.fsdf :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text-sorter-base.rest :refer :all])&quot;, :offset 47, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text])&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[text_sorter_base])&quot;, :offset 30, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[dsfasf])sdfasd&quot;, :offset 26, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(:require '[dsfasf])&quot;, :offset 12} {:command &quot;(require '[text-sorter-base.testsrdf :refer :all])&quot;, :offset 50, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(fake-db)&quot;, :offset 9, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;ldkfadkljs\&quot;)&quot;, :offset 25, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;dfs\&quot;)&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record )&quot;, :offset 13, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;sda\&quot; \&quot;Sdas\&quot;)&quot;, :offset 25, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(add-record \&quot;sda\&quot;)&quot;, :offset 18, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(+ 3 3)&quot;, :offset 7, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(require '[text-sorter-base.core :refer :all])&quot;, :offset 46, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(require '[text-sorter-base.rest :refer :all])&quot;, :offset 46, :ns &quot;text-sorter-base.core&quot;} {:command &quot;(start-server)&quot;, :offset 14, :ns &quot;text-sorter-base.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -534,12 +515,24 @@
       <workItem from="1614996367884" duration="1443000" />
       <workItem from="1614998852569" duration="1774000" />
       <workItem from="1615000660185" duration="1908000" />
-      <workItem from="1615002685445" duration="11000" />
+      <workItem from="1615002685445" duration="2112000" />
+      <workItem from="1615008040398" duration="4000" />
+      <workItem from="1615014061812" duration="15000" />
+      <workItem from="1615018939534" duration="1792000" />
+      <workItem from="1615056925596" duration="922000" />
+      <workItem from="1615059886778" duration="20000" />
+      <workItem from="1615062521044" duration="1773000" />
+      <workItem from="1615064329141" duration="685000" />
+      <workItem from="1615066594903" duration="1306000" />
+      <workItem from="1615068403623" duration="2251000" />
+      <workItem from="1615071670137" duration="1741000" />
+      <workItem from="1615073475478" duration="1492000" />
+      <workItem from="1615076033494" duration="421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143316000" />
+    <option name="totallyTimeSpent" value="157839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -552,7 +545,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5248152" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5248152" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -561,6 +554,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -573,7 +567,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,11 +898,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23775">
+          <caret line="1585" column="10" lean-forward="false" selection-start-line="1585" selection-start-column="10" selection-end-line="1585" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cheshire/cheshire/5.10.0/cheshire-5.10.0.jar!/cheshire/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="193" column="6" lean-forward="false" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/ssvnames.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/csvnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-mock/0.4.0/ring-mock-0.4.0.jar!/ring/mock/request.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="102" column="6" lean-forward="false" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -924,65 +945,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/csvnames.txt">
+    <entry file="file://$PROJECT_DIR$/test/text_sorter_base/rest_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cheshire/cheshire/5.10.0/cheshire-5.10.0.jar!/cheshire/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2895">
-          <caret line="193" column="6" lean-forward="false" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-mock/0.4.0/ring-mock-0.4.0.jar!/ring/mock/request.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="102" column="6" lean-forward="false" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/text_sorter_base/rest.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/text_sorter_base/rest_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="77" lean-forward="false" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+        <state relative-caret-position="855">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/text_sorter_base/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="765">
+          <caret line="51" column="122" lean-forward="false" selection-start-line="51" selection-start-column="122" selection-end-line="51" selection-end-column="122" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" column="38" lean-forward="true" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="795">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           <folding />
         </state>
       </provider>

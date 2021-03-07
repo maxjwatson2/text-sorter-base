@@ -19,13 +19,12 @@
 
 ;; This is a function to just add some data without having to worry about extra steps. Good for testing purposes but in a real situation you probably wouldn't want this in a release branch
 (defn populate [req]
-  (println "POPULATION")
   (let [sorting-name [
-                      {:last-name "Smith" :first-name "Adam" :email "ab@fake.com" :favorite-color "green" :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") "2/12/1709")}
-                      {:last-name "Smith" :first-name "Bobby" :email "ab@fake.com" :favorite-color "orange" :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") "2/12/1739")}
-                      {:last-name "Lincon" :first-name "Abe" :email "al@fake.com" :favorite-color "brown" :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") "2/12/1809")}
-                      {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") "1/1/1619")}
-                      {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") "1/1/1629")}
+                      {:last-name "Smith" :first-name "Adam" :email "ab@fake.com" :favorite-color "green" :birth-date "2/12/1709"}
+                      {:last-name "Smith" :first-name "Bobby" :email "ab@fake.com" :favorite-color "orange" :birth-date "2/12/1739"}
+                      {:last-name "Lincon" :first-name "Abe" :email "al@fake.com" :favorite-color "brown" :birth-date "2/12/1809"}
+                      {:last-name "Teach" :first-name "Edward" :email "et@fake.com" :favorite-color "black" :birth-date "1/1/1619"}
+                      {:last-name "Stede" :first-name "Bonnet" :email "sb@fake.com" :favorite-color "yellow" :birth-date "1/1/1629"}
                       ]]
 
     (swap! fake-db concat sorting-name))
@@ -33,17 +32,17 @@
   )
 
 (defn rec-by-email [req]
-  (sort-by-last-name (first @fake-db))
   (str
-    "SORTING BY EMAILS"
-   (sort-by-email (first @fake-db))))
+    "SORTING BY EMAILS")
+   (sort-by-email @fake-db))
 
 (defn rec-by-birth [req]
   (str "SORTING BY DATE"
-  (sort-by-date (first @fake-db))))
+       (sort-by-date @fake-db))
+  )
 
 (defn rec-by-name [req] ;; In the spec it doesn't say if we're sorting by first or last name. I'm doing first for now but in a real project I'd ask the client.
-  (str "SORTING BY NAME"(sort-by-first-name (first @fake-db))))
+  (str "SORTING BY NAME"(sort-by-first-name @fake-db)))
 
 
 (defn to-json [f req]
@@ -56,7 +55,7 @@
            (GET "/records/name" [] #(to-json rec-by-name %)) ;;returns records sorted by name
            (GET "/records/populate" [] #(to-json populate %)) ;; For testing purposes populates our temp DB
            (POST "/records/add" [] add-record) ;;Post a single data line in any of the 3 formats supported by your existing code. This actually might not work with spaces.
-           (route/resources "/");; NOTe remove the to-json for add record
+           (route/resources "/")
            (route/not-found "Not Found"))
 
 (defn start-server [] ;; We may want to add a stop server function too.

@@ -1,5 +1,5 @@
 (ns text-sorter-base.core
-  (require [clojure.java.io :as io];; NOTE remove IML from gitlab
+  (require [clojure.java.io :as io]
            [clojure.string :as str])
   (:gen-class)
   (:import (java.text SimpleDateFormat)))
@@ -7,7 +7,7 @@
 ;; I think its wise to convert the date string to a proper date here because that's what we want to return. In a real situation it would depend on use case.
 ;; It should be noted that these dates are down the the milisecond, which could be either a good thing or a bad thing depending on what kind of app we're making.
 (defn person-to-map [person-array]
-  {:last-name (person-array 0) :first-name (person-array 1) :email (person-array 2) :favorite-color (person-array 3) :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") (person-array 4))}) ;; NOTE this may break things so maybe dont
+  {:last-name (person-array 0) :first-name (person-array 1) :email (person-array 2) :favorite-color (person-array 3) :birth-date (.parse (SimpleDateFormat. "M/D/YYYY") (person-array 4))})
 
 ;; A simple function to split the individual up by the delimiter(NOTE check if right word). Could be a problem is the delimiter is in the person's name but that's outside the scope of this assignment.
 (defn file-to-map [file]
@@ -36,7 +36,7 @@
 (defn sort-by-date [person-map]
   (->> person-map (sort-by last #(compare %1 %2))))
 
-(defn sort-map [person-map sort-method] ;; NOTE make sure that the right things are ascending/decending before finalization.
+(defn sort-map [person-map sort-method]
   (case sort-method
     "last name" (sort-by-last-name person-map)
     "first name" (sort-by-first-name person-map)

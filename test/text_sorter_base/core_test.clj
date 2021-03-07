@@ -49,7 +49,7 @@
       (is (= "Abe" (:first-name (first (sort-by-first-name sorting-name)))))
       (is (= "Edward" (:first-name (last (sort-by-first-name sorting-name)))))
 
-      (is (= "ab@fake.com" (:email (last (sort-by-email sorting-name))))) ;; NOTE this could use a few more tests in the future.
+      (is (= "ab@fake.com" (:email (last (sort-by-email sorting-name))))) ;;This could use a few more tests in the future.
       (is (= "sb@fake.com" (:email (first (sort-by-email sorting-name)))))
 
       (is (= "black" (:favorite-color (first (sort-by-color sorting-name)))))
