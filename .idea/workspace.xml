@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c5d6f5-d29f-45af-87a0-4e55364178ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/text_sorter_base/core.clj" afterPath="$PROJECT_DIR$/src/text_sorter_base/core.clj" />
-      <change beforePath="$PROJECT_DIR$/src/text_sorter_base/rest.clj" afterPath="$PROJECT_DIR$/src/text_sorter_base/rest.clj" />
-      <change beforePath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" afterPath="$PROJECT_DIR$/test/text_sorter_base/core_test.clj" />
-      <change beforePath="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" afterPath="$PROJECT_DIR$/test/text_sorter_base/rest_test.clj" />
-    </list>
+    <list default="true" id="c1c5d6f5-d29f-45af-87a0-4e55364178ee" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +40,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+            <state relative-caret-position="645">
+              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -199,6 +193,11 @@
               <item name="text-sorter-base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="text_sorter_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="text-sorter-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="text-sorter-base" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="text-sorter-base" type="b2602c69:ProjectViewProjectNode" />
@@ -527,12 +526,12 @@
       <workItem from="1615068403623" duration="2251000" />
       <workItem from="1615071670137" duration="1741000" />
       <workItem from="1615073475478" duration="1492000" />
-      <workItem from="1615076033494" duration="421000" />
+      <workItem from="1615076033494" duration="728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157839000" />
+    <option name="totallyTimeSpent" value="158146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -971,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/text_sorter_base/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        <state relative-caret-position="645">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding />
         </state>
       </provider>
