@@ -32,17 +32,13 @@
   )
 
 (defn rec-by-email [req]
-  (str
-    "SORTING BY EMAILS")
    (sort-by-email @fake-db))
 
 (defn rec-by-birth [req]
-  (str "SORTING BY DATE"
-       (sort-by-date @fake-db))
-  )
+  (sort-by-date @fake-db))
 
 (defn rec-by-name [req] ;; In the spec it doesn't say if we're sorting by first or last name. I'm doing first for now but in a real project I'd ask the client.
-  (str "SORTING BY NAME"(sort-by-first-name @fake-db)))
+  (sort-by-first-name @fake-db))
 
 
 (defn to-json [f req]

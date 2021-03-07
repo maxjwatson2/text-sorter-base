@@ -28,7 +28,7 @@
       (is (= 503 (count (:body email-page)))) ;; This test is pretty bad, but it shows that we're returning the data back. I could make more but I'm tired so this is how it is for now.
 
       (is (= 200 (:status birthdate-page)))
-      (is (= 616 (count (:body birthdate-page))))
+      (is (= 503 (count (:body birthdate-page))))
 
       (is (= 200 (:status names-page)))
-      (is (= 616 (count (:body names-page)))))))
+      (is (= 503 (count (:body names-page)))))))
